@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+
+ul {
+    padding-left: 1em; 
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+ol {
+    list-style: decimal;
+    list-style-position: outside;
+    padding-left: 1em; 
+}
+
+li::marker {
+    color: var(--nutmeg);
+}
