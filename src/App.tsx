@@ -7,7 +7,7 @@ import RecipeNutrition from './components/RecipeNutrition'
 function App() {
 
   return (
-    <main className='py-5  bg-eggshell'>
+    <main className=' md:py-5  bg-eggshell'>
       <div className='max-w-[800px] rounded-3xl mx-auto bg-white'>
         <HeaderRecipe />
         <div className='p-5'>
